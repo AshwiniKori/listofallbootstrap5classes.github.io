@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <style>
+        html,body {
+            height: 100%;
+            width: 100%;
+            background-color: lightgray;
+        }
+        img {
+            width: 500px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container-fluid ms-5">
+    <h1 class="text-center">List of all Bootstrap Classes</h1>
+    <table class="table table-bordered border-primary" style="width:90%;">
+        <tr>
+            <th>Class Name</th>
+            <th>Image</th>
+            <th>Description</th>
+            <th>Category</th>
+        </tr>
+        <tr>
+            <td>.align-*</td>
+            <td><img src="img1.png"></td>
+            <td>A set of utility classes that are equivelant to writing the css property vertical-align:middle; You can use this on inline and table cell elements. .align-(baseline, top, middle, bottom)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.align-content-*</td>
+            <td><img src="img2.png"></td>
+            <td>Added to the parent flexbox container to determing how the elements are aligned horizontally. .align-content-(start (browser default), end, center, between, around, or stretch)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.align-items-*</td>
+            <td><img src="img3.png"></td>
+            <td>Class added to flexbox child items to specify if it should align towards the top or bottom of the container (start, end)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.align-self-*</td>
+            <td><img src="img4.png"></td>
+            <td>Used on flexbox items to align them vertically in relation to the parent container. If columns are used the items will align verticall. (start, end, center, baseline, or stretch (browser default)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.align-text-*</td>
+            <td>--</td>
+            <td>A set of utility classes that are equivelant to writing the css property vertical-align:text-bottom; You can use this on inline and table cell elements. .align-text-(top, bottom)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.badge-*</td>
+            <td><img src="img5.png"></td>
+            <td>Used for labels and counters in applications .badge-(light, dark primary, secondary, transparent, white, warning, success, info, danger)</td>
+            <td>badge</td>
+        </tr>
+        <tr>
+            <td>.bg-*</td>
+            <td><img src="img6.png"></td>
+            <td>Background color utility classes: .bg-(light, dark primary, secondary, transparent, white, warning, success, info, danger)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.border-*</td>
+            <td><img src="border.png"></td>
+            <td>A versatile border utility class that lets you add/remove borders on a side or change a border color. .border-(light, dark primary, secondary, transparent, white, warning, success, info, danger, 0, top-0, right-0, bottom-0, left-0, top, right, bottom, left)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.btn-outline-*</td>
+            <td><img src="btn-outline.png"></td>
+            <td>A button variation to have outlined buttons instead of a solid background. .btn-outline-(light, dark primary, secondary, transparent, white, warning, success, info, danger)</td>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>.carousel-control-*</td>
+            <td><img src="carousel-control.png"></td>
+            <td>When you have an image carousel with pagination you will use this class on the previous and next anchor links. .carousel-control-(prev, next)</td>
+            <td>carousel</td>
+        </tr>
+        <tr>
+            <td>.carousel-fade</td>
+            <td>--</td>
+            <td>Animates the slide transition with a crossfade instead of a slide</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.col</td>
+            <td><img src="col.png"></td>
+            <td>Flexbox items are automatically equal width so this class is used when you want your columns to be equal width and then go 100% on the xs breakpoint.</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.col-*</td>
+            <td><img src="col1.png"></td>
+            <td>This class is used for grid columns to determin the column width and the breakpoint you would like it to be active. The classes work from the breakpoint you set and everything larger. .col-(sm, md, lg, xl)-(1-12)</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.d-flex</td>
+            <td>--</td>
+            <td>Sets the element to have have the style property display:flex;</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.d-none</td>
+            <td>--</td>
+            <td>Sets the element to have have the style property display:none;</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>-d-*-*</td>
+            <td>--</td>
+            <td>A responsive display utility class that lets you specify when a display property is applied to the element. .d-(sm, md, lg, xl)-(none, inline, inline-block, block, table, table-cell, table-row, flex, inline-flex )</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.d-print-*</td>
+            <td>--</td>
+            <td>Changes the display of elements when you print the document. .d-print-(flex, inline-flex, table, table-cell, table-row)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.form-range</td>
+            <td><img src="range.png"></td>
+            <td>Changes the default styling of a form input range</td>
+            <td>form</td>
+        </tr>
+        <tr>
+            <td>.fixed-*</td>
+            <td>--</td>
+            <td>This class makes an element fixed to the top/bottom of the browser window. Here is what the CSS ruleset looks like. .fixed-bottom {position: fixed;right: 0;bottom: 0;left: 0;z-index: 1030;}</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.flex-*-*-*</td>
+            <td>--</td>
+            <td>Change the flexbox items layout, alignment, or size. .flex-(sm, md, lg, xl)-(row, row-reverse, column)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.flex-fill-*</td>
+            <td>--</td>
+            <td>Add to all sibling elements you would like to force into equal widths and fill all available horizontal space. .flex-fill-(sm, md, lg, xl)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.flex-(grow/shrink)-*</td>
+            <td>--</td>
+            <td>Forces an element to grow or shrink to use more or less of the space available .flex-(grow, shrink)-(0, 1)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.float-*-*</td>
+            <td>--</td>
+            <td>Responsive utility to float an element. .float-(sm, md, lg, xl)-(none, left, right)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.form-control-plaintext</td>
+            <td><img src="form-control.png"></td>
+            <td>Use the .form-control-plaintext class to remove the default form field styling and preserve the correct margin and padding.</td>
+            <td>form</td>
+        </tr>
+        <tr>
+            <td>.form-row</td>
+            <td><img src="form-row.png"></td>
+            <td>Works similar to a grid .row but is more compact to make the form look more uniform</td>
+            <td>form</td>
+        </tr>
+        <tr>
+            <td>.h-*</td>
+            <td><img src="h-.png"></td>
+            <td>Height utility class that makes the element a percentage height of its parent element. h-(25,50,78,100, auto)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.invalid-feedback</td>
+            <td><img src="invalid-feedback.png"></td>
+            <td>This class can be added with server side form validation to add a feedback message to an invalid field</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.is-*</td>
+            <td>--</td>
+            <td>If you do server side form validation you can use this class to set feedback colors on inputs or error message. .is-(valid, invalid)</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.justify-content-*</td>
+            <td><img src="justify-content.png"></td>
+            <td>Class specifies where the flex items will be positioned inside the container. .justify-content-(sm, md, lg, xl)-(start, end, center, between, around)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.m-*-*-*</td>
+            <td>--</td>
+            <td>Applies margin to an element using responsive breakpoints {property}{sides}-{breakpoint}-{size}
+                m(t,b,r,l,x,y)-(sm, md, lg, xl)-(0, 1, 2, 3, 4, 5)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.p-*-*-*</td>
+            <td>--</td>
+            <td>Applies padding to an element using responsive breakpoints {property}{sides}-{breakpoint}-{size} p(t,b,r,l,x,y)-(sm, md, lg, xl)-(0, 1, 2, 3, 4, 5)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>progress-bar-animated</td>
+            <td><img src="progress-bar.gif"></td>
+            <td>When this class is added to a progressbar the progress will be animated using css3 animations</td>
+            <td>progress</td>
+        </tr>
+        <tr>
+            <td>.nav-fill</td>
+            <td><img src="nav-fill.png"></td>
+            <td>Makes all nav items use all available horizontal space. Nav items are different widths baded on their content.</td>
+            <td>nav</td>
+        </tr>
+        <tr>
+            <td>.nav-justified</td>
+            <td><img src="nav-justified.png"></td>
+            <td>Makes all nav items equal width and use all available horizontal space.</td>
+            <td>navs</td>
+        </tr>
+        <tr>
+            <td>.navbar-collapse</td>
+            <td>--</td>
+            <td>The nav links that are collapsed and shown when toggled on mobile widths.</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.navbar-expand</td>
+            <td>--</td>
+            <td>Since the navbar is displayed collapse on mobile first, this class specifies what breakpoint you want the navbar to not be collapsed</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.navbar-text</td>
+            <td>--</td>
+            <td>Vertically centers text inside a navbar</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.navbar-toggler-icon</td>
+            <td><img src="navbar-toggler-icon.png"></td>
+            <td>The cheeseburger navigation icon is set using an svg background image of three horizontal lines</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.no-gutters</td>
+            <td>--</td>
+            <td>Removes the negative margin on the .row and padding from the child columns. Helpful when you want an image to expand to the edges of the browser without padding on the left and right edges.</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.order-*-*</td>
+            <td><img src="order.png"></td>
+            <td>This class is used to control how the elements are ordered on the page regardless of their order in the source code. So you can rearrange your layout as needed.</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.rounded-*</td>
+            <td><img src="rounded.png"></td>
+            <td>The .img-rounded class was renamed to this and is primarily used with images. However, the class just adds a border radius so you could use this on other elements that you would like a radius applied. You can also add .rounded-sm or .rounded-lg to increase the size of the radius.</td>
+            <td>Image</td>
+        </tr>
+        <tr>
+            <td>.visible</td>
+            <td>--</td>
+            <td>Hides the visibility of an element but does not change their display property.</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.w-*</td>
+            <td><img src="w-.png" class="w-75"></td>
+            <td>Width utility class that makes the element a percentage width of its parent element. w-(25,50,78,100, auto)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.was-validated</td>
+            <td><img src="was-validated.png"></td>
+            <td>This class is set by Bootstrap's javascript to apply sub class validation styles to the form inputs.</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.alert-heading</td>
+            <td><img src="alert-heading.png" class="w-75"></td>
+            <td>This class is added to headings inside alerts. It applies color:inherit so the colors match.</td>
+            <td>alert</td>
+        </tr>
+        <tr>
+            <td>.blockquote</td>
+            <td><img src="blockquote.png" class="w-75"></td>
+            <td>Add to blockquote elements to apply the proper spacing and bottom margin to seperate it from other text.</td>
+            <td>blockquote</td>
+        </tr>
+        <tr>
+            <td>.blockquote-footer</td>
+            <td><img src="blockquote-footer.png" class="w-75"></td>
+            <td>Wrapping class for citation text underneath a blockquote. Used to lighten the text color.</td>
+            <td>blockquote</td>
+        </tr>
+        <tr>
+            <td>.btn-group-lg</td>
+            <td><img src="btn-group-sizes.png"></td>
+            <td>Increases the default button group size</td>
+            <td>button group</td>
+        </tr>
+        <tr>
+            <td>.btn-group-sm</td>
+            <td><img src="btn-group-sizes 1.png"></td>
+            <td>Decreases the default button group size</td>
+            <td>button group</td>
+        </tr>
+        <tr>
+            <td>.btn-group-toggle</td>
+            <td><img src="btn-group-toggle.gif"></td>
+            <td>This class replaces an input checkbox with a custom style that is toggable on click</td>
+            <td>button group</td>
+        </tr>
+        <tr>
+            <td>.btn-lg</td>
+            <td><img src="btn-large.png"></td>
+            <td>Increases the default button size</td>
+            <td>buttons</td>
+        </tr>
+        <tr>
+            <td>.btn-outline-*</td>
+            <td><img src="btn-outline1.png"></td>
+            <td>Transparent background with colored text and border (danger|info|primary|secondary|success|warning)</td>
+            <td>buttons</td>
+        </tr>
+        <tr>
+            <td>.card</td>
+            <td><img src="card.png" class="w-75"></td>
+            <td>The class added to the div that wraps each individual card</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-body</td>
+            <td><img src="card-block.png"></td>
+            <td>This class is added to the first child div inside the div.card parent</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-columns</td>
+            <td><img src="card-columns.png" class="w-75"></td>
+            <td>The .card-columns class is added to the wrapping div of of masonry-like collection of cards</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-*</td>
+            <td><img src="card-_.png" class="w-75"></td>
+            <td>First add .card-inverse and then add one of the contextual background colors (danger|info|primary|secondary|success|warning)</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td >.card-deck</td>
+            <td><img src="card-deck-wrapper.png" class="w-75"></td>
+            <td>Similar to columns Bootstrap card decks are equal height and width</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-footer</td>
+            <td><img src="card-footer.png"></td>
+            <td>Wrap class for a card footer content area</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-group</td>
+            <td><img src="card-group.png" class="w-75"></td>
+            <td>The parent wrapping class around a group of cards. Groups are similar to decks but they have no margin between each card.</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-header</td>
+            <td><img src="card-header.png"></td>
+            <td>Wrap class for a card header content area</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-header-pills</td>
+            <td><img src="card-header-pills.png"></td>
+            <td>Class added in combination with .nav-pills to add pill navigation to a card header</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-header-tabs</td>
+            <td><img src="card-header-tabs.png"></td>
+            <td>Class added in combination with .nav-pills to add tab navigation to a card header</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-img</td>
+            <td><img src="card-image.png"></td>
+            <td>Add this class to the image you would like to have as a card background image. Used with creating cards with image overlays.</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-img-bottom</td>
+            <td><img src="card-img-bottom.png"></td>
+            <td>Similar to a card footer you can cap the bottom of a card with an image</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-img-overlays</td>
+            <td><img src="card-image1.png"></td>
+            <td>Wrapper class used to create a card that has a background image overlay</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-img-top</td>
+            <td><img src="card-img-top.png"></td>
+            <td>Similar to a card header you can cap the top of a card with an image</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-inverse</td>
+            <td><img src="card-inverse.png"></td>
+            <td>Inverts the default colors to use light text on a dark background color</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-link</td>
+            <td><img src="card-link.png"></td>
+            <td>Adds spacing around links added inside cards</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-subtitle</td>
+            <td><img src="card-subtitle.png"></td>
+            <td>Class added to card subtitles that adjusts the default heading styles</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-text</td>
+            <td><img src="card-text.png"></td>
+            <td>This class wraps the container around card text</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.card-title</td>
+            <td><img src="card-title.png"></td>
+            <td>The class added to titles inside cards. It applies the proper spacing.</td>
+            <td>cards</td>
+        </tr>
+        <tr>
+            <td>.carousel-item</td>
+            <td><img src="carousel-item.png"></td>
+            <td>The wrapper class applied to each individual carousel item</td>
+            <td>carousel</td>
+        </tr>
+        <tr>
+            <td>.clearfix</td>
+            <td></td>
+            <td>Clears the floats of any child elements. Add this class to the parent element wrapping the floating elements.</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.col-form-label</td>
+            <td><img src="col-form-label.png"></td>
+            <td>Class added to form labels to apply consistent padding and margins</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.col-form-label-lg</td>
+            <td><img src="col-form-label-lg.png"></td>
+            <td>Increases the font size and spacing of a form label</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.col-form-label-sm</td>
+            <td><img src="col-form-label-sm.png"></td>
+            <td>Decreases the font size and spacing of a form label</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.col-xl</td>
+            <td></td>
+            <td>Set column width for anything greater than 1200px. Specify the column span by adding 1-12 at the end</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.custom-checkbox</td>
+            <td><img src="custom-checkbox.png"></td>
+            <td>Parent class that converts a default form checkbox into a custom HTML/CSS checkbox</td>
+            <td>form</td>
+        </tr>
+        <tr>
+            <td>.custom-control</td>
+            <td></td>
+            <td>Used on all custom form inputs and adds base styles like padding and display:inline</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-control-inline</td>
+            <td><img src="custom-control-inline.png"></td>
+            <td>Custom form checkboxes are set to be display:block. Use this class to make the checkbox inline</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-control-input</td>
+            <td></td>
+            <td>This class is added to the default input that is going to be replaced. It adds the following: position: absolute; z-index: -1; opacity: 0;</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>.custom-control-label</td>
+            <td><img src="custom-control-label.png"></td>
+            <td>When creating a custom form checkbox, this class replaces the default checkbox with custom elements using :before and :after</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-file</td>
+            <td><img src="custom-file.png"></td>
+            <td>Class added to a label of grouped elements to create a custom file upload input</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-file-control</td>
+            <td><img src="custom-file-control.png"></td>
+            <td>Similar to the custom-control-indicator class this class is added to a div to build a custom file input using CSS :before and :after.</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-file-input</td>
+            <td></td>
+            <td>This class is added to the default input type="file" and hides it using CSS</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-file-label</td>
+            <td><img src="custom-control-label.png"></td>
+            <td>When creating a custom form file browser, this class replaces the default file browser with custom elements using :after</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-radio</td>
+            <td><img src="custom-radio.png"></td>
+            <td>This class is added to the parent label tag along with .custom-control class to specify what kind of custom input it will be</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-select</td>
+            <td><img src="custom-select.png"></td>
+            <td>Class added to a select tag to create a custom select menu</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-select-sm</td>
+            <td><img src="custom-select-sm.png"></td>
+            <td>Decreases the font size and padding on a custom select</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-select-lg</td>
+            <td><img src="custom-select-lg.png"></td>
+            <td>Increases the relative size of a custom form select</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.custom-switch</td>
+            <td><img src="custom-select-lg1.png"></td>
+            <td>Creates a custom form element that looks like a toggle switch found on touch devices.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>.d-*</td>
+            <td><img src="inline-inline-block.png"></td>
+            <td>Append the following to change the element display property (block, inline, inline-block)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.disabled</td>
+            <td><img src="disabled.png"></td>
+            <td>Add this class to anchor tags to disable the click functionality but still have them visible.</td>
+            <td>buttons</td>
+        </tr>
+        <tr>
+            <td>.display-*</td>
+            <td><img src="display-headings.png">display 5 and display6 are added</td>
+            <td>This set of classes increases the font size of headings in 4 stages. These classes are used for headings outside of the main content of the page like jumbotrons and page headers. Append (1-4) to the end to adjust size.</td>
+            <td>Typhography</td>
+        </tr>
+        <tr>
+            <td>.dropdown-divider</td>
+            <td><img src="dropdown-divider.png"></td>
+            <td>Class adds a horizontal line between dropdown link items</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>.dropdown-item</td>
+            <td><img src="dropdown-item.png"></td>
+            <td>This class is added to each link item shown in a dropdown menu</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>.dropdown-item-text</td>
+            <td></td>
+            <td>Removes the interactivity from a dropdown so it does not appear clickable</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>.dropdown-toggle-split</td>
+            <td><img src="dropdown-toggle-split.png"></td>
+            <td>Class added to the notched dropdown navigation. Great for providing additional actions but still having a primary action.</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>dropleft</td>
+            <td><img src="dropleft.png"></td>
+            <td>Dropdown menu that opens left of the button</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>dropright</td>
+            <td><img src="dropright.png"></td>
+            <td>Dropdown menu that opens right of the button</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>dropup</td>
+            <td><img src="drop-up.png"></td>
+            <td>Displays the dropdown menu above the button instead of below.</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>.embed-responsive-*</td>
+            <td></td>
+            <td>Class used to adjust responsive embed aspect ratio. Append one of the following for the desired aspect ratio (21by9, 16by9, 4by3, 1by1)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.embed-responsive-item</td>
+            <td></td>
+            <td>By default responsive embeds apply to iframe, object, embed, and video tags. You can add .embed-responsive-item to any other element to have the same responsive styles applied</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.figure-caption</td>
+            <td><img src="figure-caption.png"></td>
+            <td>Added to a figure figcaption element to apply font styling</td>
+            <td>content</td>
+        </tr>
+        <tr>
+            <td>.figure-img</td>
+            <td><img src="figure-img.png"></td>
+            <td>Classed added to images inside a figure to apply some margin</td>
+            <td>content</td>
+        </tr>
+        <tr>
+            <td>.font-*</td>
+            <td><img src="font-weight-italic.png"></td>
+            <td>(italic, weight-bold, weight-light, weight-normal, monospace)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>form-check</td>
+            <td><img src="form-check.png"></td>
+            <td>The parent class of form checkboxes</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.form-check-inline</td>
+            <td><img src="form-check-inline.png"></td>
+            <td>Class used for a horizontal group of checkmarks or radio buttons</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.form-check-input</td>
+            <td><img src="form-check-input.png"></td>
+            <td>This class is added to the input tag for checkboxes and radio buttons. Adds styles for positioning and margins.</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.form-check-label</td>
+            <td><img src="form-check-label.png"></td>
+            <td>This class is added to checkbox and radio button labels</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.form-control-file</td>
+            <td><img src="form-control-file.png"></td>
+            <td>The class added to input type="file" to apply font and spacing</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.form-control-*</td>
+            <td><img src="form-control-lg.png"></td>
+            <td>Apply this class to form elements to increase or decrease its size relative to the default sizing .form-control-(lg, sm)</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.form-inline</td>
+            <td><img src="form-inline.png"></td>
+            <td>Use this class to have a series of labels and form elements on a single horizontal row</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.form-text</td>
+            <td><img src="form-text.png"></td>
+            <td>This class is used for help text alongside form elements. You can add .text-muted to make the text lighter in color</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.has-*</td>
+            <td><img src="has-_.png"></td>
+            <td>The .has-(success, warning, danger) is added to the parent form element container to apply visual feedback to the user on form validation.</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.img-fluid</td>
+            <td><img src="img-fluid.png"></td>
+            <td>This class is applied to images you would like to be responsive or fluid width across various screen sizes. This was .img-responsive in v3</td>
+            <td>images</td>
+        </tr>
+        <tr>
+            <td>.input-group-*</td>
+            <td><img src="input-group-addon.png"></td>
+            <td>This class lets you extend form controls by adding text or buttons to the left or right of the input. .input-group-(addon|btn)</td>
+            <td>input group</td>
+        </tr>
+        <tr>
+            <td>.input-group-append</td>
+            <td><img src="input-group-prepend-append.png"></td>
+            <td>This class adds margin-left: -1px; to the input set to left of the group to compensate for the 1px border</td>
+            <td>input group</td>
+        </tr>
+        <tr>
+            <td>.input-group-prepend</td>
+            <td><img src="input-group-prepend-append 1.png"></td>
+            <td>This class adds margin-right: -1px; to the input set to right of the group to compensate for the 1px border</td>
+            <td>input group</td>
+        </tr>
+        <tr>
+            <td>.input-group-text</td>
+            <td><img src="input-group-text.png"></td>
+            <td>This class adds the background color and text styles to the text inside an input group</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.list-group-flush</td>
+            <td><img src="list-group-flush.png"></td>
+            <td>When adding a list group to a card add this class to the list group to remove the border. Otherwise you will have a double border.</td>
+            <td>card</td>
+        </tr>
+        <tr>
+            <td>.list-group-item-action</td>
+            <td><img src="list-group-item-action.png"></td>
+            <td>Add this class to each anchor in a list-group to remove the default anchor text color</td>
+            <td>list group</td>
+        </tr>
+        <tr>
+            <td>.list-inline</td>
+            <td><img src="list-inline.png"></td>
+            <td>Change ul or ol list to be listed horizontally with a little margin between each li</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.m*-#</td>
+            <td><img src="m-p-_.png"></td>
+            <td>Sometimes you need to add some margin or padding to element without writing a custom CSS selector. Set margin or padding, the side to apply the spacing, and lastly the size of the spacing (m,p)-(t|r|b|l|x|y|a)-(0,1,2,1.5,3)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.nav-item</td>
+            <td><img src="nav-item.png"></td>
+            <td>If your nav uses a list add this class to each list item for the proper spacing</td>
+            <td>nav</td>
+        </tr>
+        <tr>
+            <td>.nav-link</td>
+            <td><img src="nav-link.png"></td>
+            <td>Each anchor link inside your nav is given this class in order to have the proper styling</td>
+            <td>nav</td>
+        </tr>
+        <tr>
+            <td>.nav-pills</td>
+            <td><img src="nav-pills.png"></td>
+            <td>Use this class along with .nav to make each nav link into a button</td>
+            <td>nav</td>
+        </tr>
+        <tr>
+            <td>.navbar-light</td>
+            <td><img src="navbar-light.png"></td>
+            <td>Add this class to your navbar if you would like it to have a light background and dark text</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.navbar-toggler</td>
+            <td><img src="navbar-toggler.png"></td>
+            <td>The infamous cheeseburger icon to signify a navigation menu on mobile</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.offset-*-*</td>
+            <td><img src="offset.png"></td>
+            <td>Used to offset a grid column from its original position</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.p*-#</td>
+            <td><img src="m-p-_ 1.png"></td>
+            <td>Sometimes you need to add some margin or padding to element without writing a custom CSS selector. Set margin or padding, the side to apply the spacing, and lastly the size of the spacing (m,p)-(t|r|b|l|x|y|a)-(0,1,2,1.5,3)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.page-item</td>
+            <td><img src="page-item.png"></td>
+            <td>This class is added to each li inside the ul.pagination and floats the li's'</td>
+            <td>pagination</td>
+        </tr>
+        <tr>
+            <td>.page-link</td>
+            <td><img src="page-link.png"></td>
+            <td>This class is added to each anchor link containing the numbers</td>
+            <td>pagination</td>
+        </tr>
+        <tr>
+            <td>.pagination-sm</td>
+            <td><img src="pagination-sm.png"></td>
+            <td>Decreases the font size and spacing of a pagination nav</td>
+            <td>pagination</td>
+        </tr>
+        <tr>
+            <td>.pagination-lg</td>
+            <td><img src="pagination-lg.png"></td>
+            <td>Increases the font size and spacing of a pagination nav</td>
+            <td>pagination</td>
+        </tr>
+        <tr>
+            <td>.position-*</td>
+            <td></td>
+            <td>Not responsive, but a group of utility classes to add common position values. .position-(absolute, fixed, relative, static, sticky)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.shadow-*</td>
+            <td><img src="shadows.png"></td>
+            <td>Adds a black CSS box shadow to an element. .shadow-(none, sm, lg)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.pos-f-t</td>
+            <td></td>
+            <td>Positions an element fixed to the top of the viewport and full width.</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.sr-only</td>
+            <td></td>
+            <td>Hide element to all devices except screen readers</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.sr-only-focusable</td>
+            <td></td>
+            <td>Combine .sr-only with .sr-only-focusable to show the element again when it’s focused by a user using a keyboard</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.strecthed-link</td>
+            <td><img src="stretched-link.png"></td>
+            <td>This class extends the clickable area of an anchor link to fill the parent container. The parent container must have a position:relative for this to work properly.</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.table-*</td>
+            <td><img src="table-bordered.png"></td>
+            <td>Adds a 1px stroke around the rows, columns, and table outline. You can also remove the borders entirely. .table-(bordered, borderless)</td>
+            <td>table</td>
+        </tr>
+        <tr>
+            <td>.table-*</td>
+            <td><img src="table-_.png"></td>
+            <td>Contextual classes of different color styles to provide user feedback (active|danger|info|primary|secondary|success|warning)</td>
+            <td>table</td>
+        </tr>
+        <tr>
+            <td>.table-hover</td>
+            <td><img src="table-hover.png"></td>
+            <td>Adds a background color when you hover a table row</td>
+            <td>table</td>
+        </tr>
+        <tr>
+            <td>.table-reflow</td>
+            <td><img src="table-reflow.png"></td>
+            <td>The table header becomes the first column of the table to the left</td>
+            <td>table</td>
+        </tr>
+        <tr>
+            <td>table-sm</td>
+            <td><img src="table-sm.png"></td>
+            <td>Removes vertical padding between table rows so it does not take as much vertical space. Good for tables with a lot of rows.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>.table-striped</td>
+            <td><img src="table-striped.png"></td>
+            <td>Adds a light background color to every other table row for a striped effect	</td>
+            <td>table</td>
+        </tr>
+        <tr>
+            <td>.text-*-*</td>
+            <td><img src="text-align.png"></td>
+            <td>Aligns text left, right or center use choose breakpoint (xs|sm|md|lg|xl) then alignment (left, right, center)</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.text-break</td>
+            <td><img src="text-break.png"></td>
+            <td>When you are building applications that have long strings or user generated content, this class breaks the long text so that it does not break the layout. Without this, the text would be as wide as the string itself.</td>
+            <td>utility</td>
+        </tr>
+        <tr>
+            <td>.thead-dark</td>
+            <td><img src="thead-default.png"></td>
+            <td>The default table head styling of light background and dark text</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>.thead-light</td>
+            <td><img src="thead-inverse.png"></td>
+            <td>Inverts the table head to have a dark background and light text</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>.alert</td>
+            <td><img src="alert-dismissable.png"></td>
+            <td>The .alert class adds base styling with padding and margin.</td>
+            <td>alert</td>
+        </tr>
+        <tr>
+            <td>.alert-*</td>
+            <td><img src="alerts-all.png"></td>
+            <td>Change the color of the alert to provide user feedback. (primary, secondary, success, danger, warning, info, light, dark)</td>
+            <td>alert</td>
+        </tr>
+        <tr>
+            <td>.alert-dismissable</td>
+            <td><img src="alert-dismissable.png"></td>
+            <td>Similar to a well it is a box with a border and padding. This class and a child element with a .close class lets the user close the alert.</td>
+            <td>alert</td>
+        </tr>
+        <tr>
+            <td>.alert-link</td>
+            <td><img src="alert-link.png"></td>
+            <td>When you add links inside alert this class matches the font color to the parent alert class.</td>
+            <td>alert</td>
+        </tr>
+        <tr>
+            <td>.active</td>
+            <td><img src="active.png"></td>
+            <td>Tables contextual class to change row color</td>
+            <td>table</td>
+        </tr>
+        <tr>
+            <td>.bg-danger</td>
+            <td><img src="bg-danger.png"></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.bg-info</td>
+            <td><img src="bg-info.png"></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.bg-primary</td>
+            <td><img src="bg-primary.png"></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.bg-success</td>
+            <td><img src="bg-success.png"></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.bg-warning</td>
+            <td><img src="bg-warning.png"></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>.bg-secondary</td>
+            <td></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.bg-dark</td>
+            <td></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.bg-light</td>
+            <td></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.bg-white</td>
+            <td></td>
+            <td>Similar to the contextual text color classes, easily set the background of an element to any contextual class. Anchor components will darken on hover, just like the text classes.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.breadcrumb</td>
+            <td><img src="breadcrumbs.png"></td>
+            <td>Indicate the current page's location within a navigational hierarchy.</td>
+            <td>breadcrumbs</td>
+        </tr>
+        <tr>
+            <td>.btn</td>
+            <td><img src="btn.png"></td>
+            <td>This class sets the spacing and size of the button.</td>
+            <td>buttons</td>
+        </tr>
+        <tr>
+            <td>.btn-block</td>
+            <td><img src="btn-block.png"></td>
+            <td>By default buttons are inline this class makes it block to span the full width of its parent.</td>
+            <td>buttons</td>
+        </tr>
+        <tr>
+            <td>.btn-danger</td>
+            <td><img src="btn-danger.png"></td>
+            <td>Defaults to a red background button</td>
+            <td>buttons</td>
+        </tr>
+        <tr>
+            <td>.btn-group</td>
+            <td><img src="btn-group.png"></td>
+            <td>Smushes multiple buttons together to make a pill shape. Each button is separated by a vertical line.</td>
+            <td>button groups</td>
+        </tr>
+        <tr>
+            <td>.btn-group-vertical</td>
+            <td><img src="btn-group-vertical.png"></td>
+            <td>Make a set of buttons appear vertically stacked rather than horizontally.</td>
+            <td>button group</td>
+        </tr>
+        <tr>
+            <td>.btn-info</td>
+            <td><img src="btn-info.png"></td>
+            <td>Button for information on a topic like terms and conditions. Default is light blue.</td>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>.btn-link</td>
+            <td><img src="btn-link.png"></td>
+            <td>Keeps the spacing set with the .btn class but removes the outer border.</td>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>.btn-lg</td>
+            <td><img src="btn-lg.png"></td>
+            <td>Fancy larger or smaller buttons? Add .btn-lg, .btn-sm, or .btn-xs for additional sizes.</td>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>.btn-primary</td>
+            <td><img src="btn-primary.png"></td>
+            <td>Use for the primary action in a set.</td>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>.btn-sm</td>
+            <td><img src="btn-sm.png"></td>
+            <td>Fancy larger or smaller buttons? Add .btn-lg, .btn-sm, or .btn-xs for additional sizes.</td>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>.btn-success</td>
+            <td><img src="btn-success.png"></td>
+            <td>Defaults to a green background button with dark border.</td>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>.btn-toolbar</td>
+            <td><img src="btn-toolbar.png"></td>
+            <td>Used to create a row of buttons similar pagination row</td>
+            <td>button group</td>
+        </tr>
+        <tr>
+            <td>.btn-warning</td>
+            <td><img src="btn-warning.png"></td>
+            <td>	Defaults to a yellow background button with dark border.</td>
+            <td>button</td>
+        </tr>
+        <tr>
+            <td>.carousel</td>
+            <td><img src="carousel.png"></td>
+            <td>parent carousel class making it position relative</td>
+            <td>carousel</td>
+        </tr>
+        <tr>
+            <td>.carousel-caption</td>
+            <td><img src="carousel-caption.png"></td>
+            <td>Caption for each slide item</td>
+            <td>carousel</td>
+        </tr>
+        <tr>
+            <td>.carousel-indicators</td>
+            <td><img src="carousel-indicators.png"></td>
+            <td>parent classed added to an ordered list for the little circles showing what slide you are on</td>
+            <td>carousel</td>
+        </tr>
+        <tr>
+            <td>.carousel-inner</td>
+            <td><img src="carousel-inner.png"></td>
+            <td>parent classed added to an ordered list for the little circles showing what slide you are on</td>
+            <td>carousel</td>
+        </tr>
+        <tr>
+            <td>.close</td>
+            <td><img src="close.png"></td>
+            <td>Use the generic close icon for dismissing content like modals and alerts.</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.col-*-*</td>
+            <td><img src="col 1.png"></td>
+            <td>span 1-12 column. Extra small devices Phones ( < 768px), Small devices Tablets (≥768px), Medium devices Desktops (≥992px), Large devices Desktops (≥1200px). Column device Column numeric values can be 1-12.</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.col-pull</td>
+            <td><img src="col-push-pull.png"></td>
+            <td>Easily change the order of our built-in grid columns with .col-*-push-* and .col-*-pull-* modifier classes. Pull numeric values can be 0-12.</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.col-push</td>
+            <td><img src="col-push-pull.png"></td>
+            <td>Easily change the order of our built-in grid columns with .col-*-push-* and .col-*-pull-* modifier classes. Push numeric values can be 0-12.</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.collapse</td>
+            <td><img src="collapse.gif"></td>
+            <td>hides content on hide and show component</td>
+            <td>collapse</td>
+        </tr>
+        <tr>
+            <td>.collapsing</td>
+            <td><img src="collapse.gif"></td>
+            <td>applied during transitions on hide and show component</td>
+            <td>collapse</td>
+        </tr>
+        <tr>
+            <td>.container</td>
+            <td><img src="container.png"></td>
+            <td>Fixed width container with widths determined by viewport size. Equal margin on the left and right.</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.container-{braeakpoint}</td>
+            <td><img src="container.png"></td>
+            <td>width: 100% until the specified breakpoint</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.container-fluid</td>
+            <td><img src="container-fluid.png"></td>
+            <td>Spans the full width of the screen</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.dropdown</td>
+            <td><img src="dropdown.png"></td>
+            <td>This class gives you the ability to add a dropdown to navbar, tabs, and pills so you can display a dropdown of additional navigation.</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>.dropdown-header</td>
+            <td><img src="dropdown-header.png"></td>
+            <td>Used to add headers inside the dropdown menu</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>.dropdown-menu</td>
+            <td><img src="dropdown-menu.png"></td>
+            <td>Adds the default styles for the dropdown menu container</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>.dropdown-toggle</td>
+            <td><img src="dropdown-toggle.png"></td>
+            <td>This class is added to the button that will have the toggle action applied that will hide and show the dropdown menu</td>
+            <td>dropdown</td>
+        </tr>
+        <tr>
+            <td>.embed-responsive</td>
+            <td><img src="responsive-embed.png"></td>
+            <td>The default responsive iframe embed styles</td>
+            <td>embed</td>
+        </tr>
+        <tr>
+            <td>.fade</td>
+            <td></td>
+            <td>To have your alerts use animation when closing, make sure they have the .fade and .in classes already applied to them.</td>
+            <td>alert</td>
+        </tr>
+        <tr>
+            <td>.form-control</td>
+            <td><img src="form-control 1.png"></td>
+            <td>Class added input, textarea, and select to make them 100% and responsive</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.form-group</td>
+            <td><img src="form-group.png"></td>
+            <td>A div wrapper class that goes around a form input and label</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.h1-.h6</td>
+            <td><img src="h1-h6.png"></td>
+            <td>Apply heading styles to other elements. Make a paragraph look like an h1</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.img-thumbnail</td>
+            <td><img src="img-thumbnail.png"></td>
+            <td>Adds rounded corners and an inset border to an image</td>
+            <td>images</td>
+        </tr>
+        <tr>
+            <td>info</td>
+            <td><img src="info.png"></td>
+            <td>Tables contextual class to change row color" target="_blank" rel="nofollow" href="https://v5.getbootstrap.com/docs/5.0/content/tables/#contextual-classes</td>
+            <td>tables</td>
+        </tr>
+        <tr>
+            <td>.initialism</td>
+            <td><img src="initialism.png"></td>
+            <td>Add .initialism to an abbreviation for a slightly smaller font-size.</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.input-group</td>
+            <td><img src="input-group.png"></td>
+            <td>Wrapper class used to enhance an input and label group by adding a button in front or behind as help text</td>
+            <td>forms</td>
+        </tr>
+        <tr>
+            <td>.invisible</td>
+            <td><img src="show-hidden-invisible.png"></td>
+            <td>Make something invisible</td>
+            <td>helper classes</td>
+        </tr>
+        <tr>
+            <td>.lead</td>
+            <td><img src="lead.png"></td>
+            <td>Increase the font size and line height of a paragraph. Good to use on the first paragraph of an article to improve readability.</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.list-group</td>
+            <td><img src="list-group-item.png"></td>
+            <td>Wrapper ul class that contains li with borders</td>
+            <td>list group</td>
+        </tr>
+        <tr>
+            <td>.list-group-horizontal</td>
+            <td><img src="list-group-horizontal.png"></td>
+            <td>The list group items are positioned horizontal intead of vertically. Be careful of long lists because they can break the layout. example</td>
+            <td>list group</td>
+        </tr>
+        <tr>
+            <td>.list-group-item</td>
+            <td><img src="list-group-item.png"></td>
+            <td>Class added to each li in a list-group</td>
+            <td>list group</td>
+        </tr>
+        <tr>
+            <td>.list-group-item-text</td>
+            <td><img src="list-group-text.png"></td>
+            <td>	Class added to an anchor or p for a .list-group-item text under a heading</td>
+            <td>list group</td>
+        </tr>
+        <tr>
+            <td>.list-group-item-*</td>
+            <td><img src="list-group-item-color.png"></td>
+            <td>Change color of list group item by adding one of the following: default, warning, info, danger, primary</td>
+            <td>list group</td>
+        </tr>
+        <tr>
+            <td>.list-inline</td>
+            <td><img src="list-inline (1).png"></td>
+            <td>Overrides a lists default style to be inline and block</td>
+            <td>list</td>
+        </tr>
+        <tr>
+            <td>.list-unstyled</td>
+            <td><img src="list-unstyled.png"></td>
+            <td>Removes all bullet styling from a ul or ol list</td>
+            <td>list</td>
+        </tr>
+        <tr>
+            <td>.mark</td>
+            <td><img src="mark.png"></td>
+            <td>For highlighting a run of text due to its relevance in another context, use the mark tag.</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.modal</td>
+            <td><img src="modal.gif"></td>
+            <td>The parent wrapper class of modal content</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-backdrop</td>
+            <td></td>
+            <td>Added by the modal javascript to make the area around the modal clickable to hide the modal</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-body</td>
+            <td><img src="modal-header-body-footer.png"></td>
+            <td>The modal body content class : Header - Body - Footer</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-content</td>
+            <td><img src="modal-content.png"></td>
+            <td>modal-content contains modal-body, modal-header, and modal-footer</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-dialog</td>
+            <td><img src="modal-dialouge.png"></td>
+            <td>The secondary wrapper class of the entire modal content</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-dialog-centered</td>
+            <td><img src="modal-dialog-centered.png"></td>
+            <td>Vertically and horizontally centers a modal dialog</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-footer</td>
+            <td><img src="modal-header-body-footer.png"></td>
+            <td>The footer of the modal that contains action buttons or help text</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>.modal-header</td>
+            <td><img src="modal-header-body-footer.png"></td>
+            <td>The header section of the modal that contains the title and close button</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-lg</td>
+            <td><img src="modal-lg-sm.gif"></td>
+            <td>Makes a modal wider</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-sm</td>
+            <td><img src="modal-lg-sm.gif"></td>
+            <td>Makes the modal not as wide</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.modal-open</td>
+            <td></td>
+            <td>Javascript adds this class to the body tag to prevent scrolling with the modal is open</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>.modal-title</td>
+            <td><img src="modal-header-body-footer.png"></td>
+            <td>The title of the modal</td>
+            <td>modal</td>
+        </tr>
+        <tr>
+            <td>.nav</td>
+            <td><img src="navbar.png"></td>
+            <td>nav base class added all types of navigation: tabs, pills, justified, disabled link</td>
+            <td>nav</td>
+        </tr>
+        <tr>
+            <td>.nav-tabs</td>
+            <td><img src="tabs.png"></td>
+            <td>Class added to enable Bootstrap tabs</td>
+            <td>nav</td>
+        </tr>
+        <tr>
+            <td>.navbar</td>
+            <td><img src="navbar.png"></td>
+            <td>	Navigation header class</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.navbar-brand</td>
+            <td><img src="navbar-brand-image.png"></td>
+            <td>Most navbars contain a logo or brand. This class is added to the anchor</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.navbar-nav</td>
+            <td><img src="navbar-nav.png"></td>
+            <td>The wrapper class of the navigation elements excluding the brand</td>
+            <td>navbar</td>
+        </tr>
+        <tr>
+            <td>.next</td>
+            <td><img src="carousel-control (1).png"></td>
+            <td>Used in the carousel control to identity the next control</td>
+            <td>carousel</td>
+        </tr>
+        <tr>
+            <td>.pagination</td>
+            <td><img src="pagination.png"></td>
+            <td>The wrapper class that contains all of the page navigation</td>
+            <td>pagination</td>
+        </tr>
+        <tr>
+            <td>.progress</td>
+            <td><img src="progress-bar.png"></td>
+            <td>The parent class wrapper of a progress bar</td>
+            <td>progress-bar</td>
+        </tr>
+        <tr>
+            <td>progrss-bar</td>
+            <td><img src="progress-bar (1).png"></td>
+            <td>The class applied to the progress bar graphic that moves</td>
+            <td>progress-bar</td>
+        </tr>
+        <tr>
+            <td>progress-bar-striped</td>
+            <td><img src="progress-bar-striped.png"></td>
+            <td>Changes progress to a striped version</td>
+            <td>progress-bar</td>
+        </tr>
+        <tr>
+            <td>.progress-bar-animated</td>
+            <td></td>
+            <td>change the progress to a striped progress with animation</td>
+            <td>progress-bar</td>
+        </tr>
+        <tr>
+            <td>.row</td>
+            <td><img src="col-push-pull (1).png"></td>
+            <td>used a parent wrapper of any vertical columns</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.row-cols-*-*</td>
+            <td><img src="col-push-pull (1).png"></td>
+            <td>nstead of setting the column width on the .col you can specify the column grid on the .row. This can be used for a list of posts or for making a responsive card deck. Example .col-(sm,md,lg,xl)-(1-6)</td>
+            <td>grid</td>
+        </tr>
+        <tr>
+            <td>.small</td>
+            <td><img src="small.png"></td>
+            <td>Create lighter, secondary text in any heading with a generic tag or the .small class.</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.sr-only</td>
+            <td></td>
+            <td>Hide an element to all devices except screen readers with .sr-only.</td>
+            <td>helper-classes</td>
+        </tr>
+        <tr>
+            <td>.success</td>
+            <td><img src="success.png"></td>
+            <td>Tables contextual class to change row color</td>
+            <td>tables</td>
+        </tr>
+        <tr>
+            <td>.tab-pane</td>
+            <td><img src="tab-pane.png"></td>
+            <td>Class added to the div that will act as a tab content area</td>
+            <td>tabs</td>
+        </tr>
+        <tr>
+            <td>.table</td>
+            <td><img src="table.png"></td>
+            <td>Adding this class to a HTML table applies the Bootstrap styles</td>
+            <td>tables</td>
+        </tr>
+        <tr>
+            <td>.table-sm</td>
+            <td><img src="table-condensed.png"></td>
+            <td>Removes some padding from the table cells</td>
+            <td>tables</td>
+        </tr>
+        <tr>
+            <td>.table-bordered</td>
+            <td><img src="table-bordered (1).png"></td>
+            <td>Adds borders to a table and its cells</td>
+            <td>tables</td>
+        </tr>
+        <tr>
+            <td>.table-responsive</td>
+            <td><img src="table-responsive.gif"></td>
+            <td>Makes a table responsive by cropping a wide table and makes it scrollable horizontally. .table-responsive or .table-responsive-(lg, md, sm, xl)</td>
+            <td>table</td>
+        </tr>
+        <tr>
+            <td>.text-capitalize</td>
+            <td><img src="text-transform.png"></td>
+            <td>Capitalize the text or title case</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.text-justify</td>
+            <td><img src="text-alignment.png"></td>
+            <td>Full justifys the text</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.text-lowercase</td>
+            <td><img src="text-transform.png"></td>
+            <td>Changes text to lowercase</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.text-nowrap</td>
+            <td><img src="text-alignment.png"></td>
+            <td>Prevents the text from wrapping</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.text-*</td>
+            <td><img src="text-colors.png"></td>
+            <td>Changes text color to a contextual color or grayscale value .text-(primary, secondary, success, danger, warning, info, light, dark, body, muted, white, black-50, white-50)</td>
+            <td>colors</td>
+        </tr>
+        <tr>
+            <td>.text-uppercase</td>
+            <td><img src="text-transform.png"></td>
+            <td>Makes text uppercase</td>
+            <td>typography</td>
+        </tr>
+        <tr>
+            <td>.tooltip</td>
+            <td><img src="tooltip.png"></td>
+            <td>This class is used by the tooltip javascript as the wrapper of the toolitp</td>
+            <td>tooltip</td>
+        </tr>
+        <tr>
+            <td>.tooltip-inner</td>
+            <td><img src="tooltip-inner.png"></td>
+            <td>The wrapper class of tooltip text. This is generated by the Bootstrap javascript</td>
+            <td></td>
+        </tr>
+        
+    </table>
+    <br><br><br><br>
+    </div> 
+    
+    
+    
+    
+</body>
+</html>
